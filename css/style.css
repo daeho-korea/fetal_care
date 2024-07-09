@@ -510,6 +510,9 @@ legend,
 .ml8 {
   margin-left: .8rem;
 }
+.ml9 {
+  margin-left: .9rem;
+}
 .ml10 {
   margin-left: 1rem;
 }
@@ -709,6 +712,10 @@ legend,
   padding-left: 8px;
   padding-right: 8px;
 }
+.px12 {
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
 .px16 {
   padding-left: 1.6rem;
   padding-right: 1.6rem;
@@ -765,6 +772,12 @@ legend,
 }
 .w100 {
   width: 100%;
+}
+.min360 {
+  min-width: 360px;
+}
+.min515 {
+  min-width: 515px;
 }
 
 .bg-ce {
@@ -1390,7 +1403,7 @@ button {
   display: block;
   text-align: center;
   padding: 1.4rem 2.0rem;
-  background: var(--redf3);
+  background: #10C6FF;
   color: var(--white);
   font-size: 1.6rem;
   font-weight: 700;
@@ -2039,6 +2052,9 @@ button {
   &.fw500 {
     font-weight: 400;
   }
+  &.fw600 {
+    font-weight: 600;
+  }
   &.lh140 {
     line-height: 140%;
   }
@@ -2052,7 +2068,7 @@ button {
     color: var(--navy43);
   }
   & .blue {
-    color: var(--blue3d);
+    color: #10C6FF;
     &.fw600 {
       font-weight: 600;
     } 
@@ -3080,7 +3096,7 @@ input[type="checkbox"]:checked + label:before {
 .tab-type2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  max-width: 170px;
+  max-width: 200px;
   margin: 0 auto;
 }
 .tab-type2 a {
@@ -3096,7 +3112,7 @@ input[type="checkbox"]:checked + label:before {
 }
 
 .tab-type2 a.active {
-  border-bottom: 4px solid var(--redf3);
+  border-bottom: 4px solid #10C6FF;
   color: var(--black);
 }
 .tab-type2 + button {
@@ -5361,4 +5377,17 @@ input[type="number"]::-webkit-inner-spin-button {
   height: 10px;
   background: var(--grayf1);
 }
-
+.img-scanner {
+  width: 100%;
+  height: calc(100vh);
+  background: url(../images/@img_fetal4.png) no-repeat center center / cover;
+  margin-top: -80px;
+}
+.fixed-top {
+  position: fixed;
+  top: 7.3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 500px;
+}
